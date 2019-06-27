@@ -1,0 +1,8 @@
+spring:
+  profiles:
+    active: dev
+
+exec:
+  # Only DEFAULT task for now
+  enabled: true
+  jar-path: file:C:/Users/Username/Downloads/my-app.jar # Windows path, but can be a linux path
